@@ -126,3 +126,9 @@ button:hover {
 .buttons-container {
   height: 65vh;
 }
+
+.highlight-orange {
+  background-color: #ffffff;
+  color: #f1a33b;
+  transition: .5s;
+}

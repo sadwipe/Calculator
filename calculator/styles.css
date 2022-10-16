@@ -56,36 +56,38 @@ button:hover {
   cursor: pointer;
 }
 
+.dark-gray {
+  background-color: #333333;
+}
+
 .dark-gray:hover {
   background-color: #737373;
-  transition: 0.5s;
+  transition-duration: .25s;
 }
 
 .light-gray:hover {
   background-color: #d9d9d9;
-  transition: 0.5s;
-}
-
-.orange:hover {
-  background-color: #f4c995;
-  transition: 0.5s;
+  transition-duration: .25s;
 }
 
 .light-gray {
   background-color: #a5a5a5;
 }
 
-.dark-gray {
-  background-color: #333333;
+.orange {
+  background-color: orange;
+  transition: .5s linear;
+}
+
+.orange:hover {
+  background-color: #f4c995;
+  transition-duration: .25s;
 }
 
 .white {
   color: white;
 }
 
-.orange {
-  background-color: orange;
-}
 
 .fifth-row {
   display: flex;
